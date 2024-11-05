@@ -1,0 +1,42 @@
+{
+  "name": "neonfarmer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx ./src/app.ts",
+    "lint": "eslint --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/node": "^22.7.8",
+    "@types/prompts": "^2.4.9",
+    "@types/puppeteer": "^5.4.7",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.11.0"
+  },
+  "dependencies": {
+    "@types/sequelize": "^4.28.20",
+    "axios": "^1.7.7",
+    "decimal.js": "^10.4.3",
+    "ethers": "^6.13.1",
+    "https-proxy-agent": "^7.0.5",
+    "p-limit": "^6.1.0",
+    "prompts": "^2.4.2",
+    "puppeteer": "^23.6.0",
+    "sequelize": "^6.37.5",
+    "sequelize-cli": "^6.6.2",
+    "sqlite3": "^5.1.7",
+    "user-agents": "^1.1.269"
+  }
+}

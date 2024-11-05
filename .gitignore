@@ -1,0 +1,6 @@
+/dist
+node_modules
+src/wallets.db
+src/extensions/rabby
+src/extensions/phantom
+data.json

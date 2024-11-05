@@ -1,0 +1,8 @@
+[
+    {   
+        "name": "имяАккаунта",
+        "solPk": "приватник от солана кошелька",
+        "evmPk": "приватник evm",
+        "proxy": "http://login:password@ip:port"
+    }
+]
